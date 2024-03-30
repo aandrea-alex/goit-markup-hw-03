@@ -52,6 +52,21 @@ img {
 
 .header-page {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0px;
+}
+
+.header-page .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 332px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header-logo {
@@ -62,10 +77,18 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo-accent {
   color: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
 
 .menu-item-link {
@@ -80,6 +103,12 @@ img {
 .menu-item-link:focus {
   color: #404bbf;
   text-decoration-line: underline;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .header-address {

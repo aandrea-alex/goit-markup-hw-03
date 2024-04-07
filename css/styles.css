@@ -78,8 +78,8 @@ img {
 
 .header-page .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 332px;
 }
 
 .navigation {
@@ -126,6 +126,7 @@ img {
 .contacts-container {
   display: flex;
   gap: 40px;
+  margin-left: auto;
 }
 
 .header-address {
